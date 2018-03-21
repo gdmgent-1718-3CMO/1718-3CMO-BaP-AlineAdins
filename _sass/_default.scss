@@ -17,12 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $mycolor-5;
+    text-transform: uppercase;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    text-transform: uppercase;
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
@@ -31,14 +33,14 @@ h3, h4, h5, h6 {
 a {
     text-decoration: none;
     color: $body-link;
-    border-bottom: dotted 1px $body-link;
     &:hover{
+        background-clip: $color-grey-2;
         color: $body-link;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        border-bottom: solid 2px $body-link;
     }
     &:active{
-        background-color: $body-link;
+        background-color: $color-grey-2;
         color: $color-white;
     }
     &:focus{}

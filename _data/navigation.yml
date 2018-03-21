@@ -9,14 +9,32 @@
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
-  permalink: logo/
+  # folder: pages/logo
+  permalink: /logo
   # fa-icon: icon-graduation-cap
 
 - name: Kleur
   description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/
+  # folder: pages/kleur
+  permalink: /kleur
+  # fa-icon: icon-info
+
+- name: Typografie
+  description: Typografie
+  # folder: pages/kleur
+  permalink: /typografie
+  # fa-icon: icon-info
+
+- name: Toepassingen
+  description: Toepassingen
+  folder: pages/toepassingen
+  permalink: /toepassingen
+  # fa-icon: icon-info
+
+- name: Downloadpagina
+  description: Download
+  # folder: pages/toepassingen
+  permalink: /download
   # fa-icon: icon-info
 
 - name: Styleguide
@@ -24,3 +42,5 @@
   # folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
+
+
