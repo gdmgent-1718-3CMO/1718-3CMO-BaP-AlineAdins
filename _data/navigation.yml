@@ -25,22 +25,26 @@
   permalink: /typografie
   # fa-icon: icon-info
 
+- name: Elementen
+  description: Elementen
+  # folder: pages/toepassingen
+  permalink: /elementen
+  # fa-icon: icon-info
+
+- name: Fotografie
+  description: Fotografie
+  # folder: pages/toepassingen
+  permalink: /fotografie
+  # fa-icon: icon-info
+
 - name: Toepassingen
   description: Toepassingen
   folder: pages/toepassingen
   permalink: /toepassingen
   # fa-icon: icon-info
 
-- name: Downloadpagina
-  description: Download
-  # folder: pages/toepassingen
-  permalink: /download
-  # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
-  # fa-icon: icon-info
+
+
 
 

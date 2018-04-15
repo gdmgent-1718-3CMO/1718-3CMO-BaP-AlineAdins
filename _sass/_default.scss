@@ -15,19 +15,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
     font-size: 4rem;
     color: $mycolor-5;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
 }
 h2 {
-    font-weight: $font-weight-light;
-    font-size: 2rem;
+    font-weight: $font-weight-bold;
+    font-size: 2.3rem;
     margin: 2rem 0 1rem;
     text-transform: uppercase;
+    color: $mycolor-5;
 }
 h3, h4, h5, h6 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     margin: 2rem 0 0;
 }
 a {
@@ -37,6 +40,7 @@ a {
         background-clip: $color-grey-2;
         color: $body-link;
         text-decoration: none;
+        border-left:none;
         border-bottom: solid 2px $body-link;
     }
     &:active{
@@ -56,39 +60,24 @@ main ul {
   margin: 0 0 1em;
   padding: 0;
   li {
-    padding-left: 25px;
-    text-indent: -25px;
     &:before {
-        content:'\2022';
-        color: $mycolor-5;
-        margin-right: 18px;
+       
     }    
   }
 }
 
 //geordende lijstjes met een ander symbool of kleur
 main ol {
-    list-style: none;  
-    margin: 0 0 1em;
-    padding: 0;
-    counter-reset: i 0;
+    font-weight: 600;
+   
     li {
       padding-left: 25px;
       text-indent: -25px;
       margin-bottom: 0.5rem;
-      &:before {
-        counter-increment: i;
-        content: counter(i);    
-        padding: 3px 6px;
-        margin-right: 5px;
-        border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
-        font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
+    
       }    
     }
-  }
+
 
 //forms 
 button, a.btn {
